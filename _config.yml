@@ -1,3 +1,1 @@
 markdown: redcarpet
-baseurl: /cloud-tech-learn
-exclude: ['README.md']
