@@ -1,7 +1,7 @@
 {% for node in pages_list %}
 {{node.category}}
   {% if group == null or group == node.group %}
-    <li><a href="{{ site.baseurl}}{{ node.url }}">{{ node.title }}</a></li>
+    <li><a href="{{ node.url }}">{{ node.title }}</a></li>
   {% endif %}
 {% endfor %}
 {% assign pages_list = nil %}
