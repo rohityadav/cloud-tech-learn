@@ -1,1 +1,28 @@
+# Jekyll configuration
+
+name: CloudTechLearn
+description: Cloud Technologies Learning
+
+# url is currently only used only for the RSS feed in feed.xml
+url: https://rohityadav.github.io/cloud-tech-learn
+
+# baseurl will often be '', but for a project page on gh-pages, it needs to
+# be the project name.
+# *** IMPORTANT: If your local "jekyll serve" throws errors change this to '' or
+#     run it like so: jekyll serve --baseurl=''
+baseurl: /cloud-tech-learn
+
+
+# Set this to your UA-# value, or '' to disable the block completely
+gaaccount: ''
+
+
+
+permalink: /:year/:month/:title
+paginate: 3
+
+highlighter: rouge
 markdown: redcarpet
+gems: ['jekyll-paginate']
+
+exclude: ['README.md']
