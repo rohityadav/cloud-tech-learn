@@ -23,6 +23,6 @@ paginate: 3
 
 highlighter: rouge
 markdown: redcarpet
-gems: ['jekyll-paginate']
+gems: ['jekyll-paginate','jekyll-seo-tag']
 
 exclude: ['README.md']
