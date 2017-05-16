@@ -49,3 +49,11 @@ body {
 .author a {
     color: #ee4444;
 }
+
+.navbar-right {
+    float: right;
+}
+
+.padding-right-nav:last-child {
+    padding-right: 50px;
+}
