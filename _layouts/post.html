@@ -3,12 +3,12 @@
 <div class="container container-left">
     <div class="row">
         <div class="col-md-3 hidden-xs">
-            {% include sidebar1.html %}
+            {% include detail-side-bar.html %}
         </div>
         <div class="col-md-9">
           <div class="article">
             <div class="well">
-                <h1><a href="{{ page.url }}">{{ page.date | date: "%b %-d, %Y" }} - {{ page.title }}</a></h1>
+                <h2>{{ page.date | date: "%b %-d, %Y" }} - {{ page.title }}</h2>
                 <div class="post-content">
                     {{ content }}
                 </div>
